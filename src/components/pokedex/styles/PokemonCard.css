@@ -1,0 +1,246 @@
+.pokemonCard {
+  max-width: min(320,100%);
+  border: 10px solid green;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+
+
+.pokemonCard__header {
+  height: 170px;
+  background-color: rgb(59, 146, 92);
+  background-color: red;
+  
+}
+
+.pokemonCard__body {
+  padding: 20px;
+}
+
+.pokemonCard__img {
+  position: absolute;
+  top: 0;
+}
+
+.pokemonCard__name {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 35px;
+  text-transform: capitalize; 
+}
+
+.pokemonCard__types {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 18px;
+  margin: 0;
+   
+}
+
+.pokemonCard__subtile{  
+  text-align: center;
+  color: gray;
+  font-size: 15px;
+}
+
+.pokemonCard__line {
+  width: 200%;
+  position: relative;
+  left: -20%;
+}
+
+.pokemonCard__stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.pokemonCard__stat {
+  text-align: center;
+}
+
+.pokemonCard__stat-name {
+  text-transform: uppercase;
+  color: gray;
+  font-weight: normal;
+}
+
+.pokemonCard__stat-value {
+  font-size: 18px;
+  margin-top: 4px;
+}
+
+/* cambio de colores bordes */
+
+.border-normal {
+  border: 10px solid #B1DBBC;
+}
+
+.border-fighting {
+  border: 10px solid #96402A;
+}
+
+.border-flying {
+  border: 10px solid #735259;
+}
+ 
+.border-poison {
+  border: 10px solid #5B3184;
+}
+
+.border-ground {
+  border: 10px solid #0F0F2D;
+}
+
+.border-rock {
+  border: 10px solid #96402A;
+}
+
+.border-bug {
+  border: 10px solid #D98880;
+}
+
+.border-rock {
+  border: 10px solid #D98880;
+}
+
+.border-ghost {
+  border: 10px solid #2980B9;
+}
+
+.border-steel {
+  border: 10px solid #17A589;
+}
+
+.border-fire {
+  border: 10px solid #B7950B;
+}
+
+.border-water {
+  border: 10px solid #2E4053;
+}
+
+.border-grass {
+  border: 10px solid #2E4053;
+}
+
+.border-electric {
+  border: 10px solid #ff8c00
+}
+
+.border-psychic {
+  border: 10px solid #DA742E;
+}
+
+.border-ice {
+  border: 10px solid #DAB62E;
+}
+
+.border-dragon {
+  border: 10px solid #A8DA2E;
+}
+
+.border-dark {
+  border: 10px solid #40DA2E;
+}
+
+.border-fairy{
+  border: 10px solid #D22EDA;
+}
+
+.border-unknown{
+  border: 10px solid #2EDA91;
+}
+
+.border-shadow {
+  border: 10px solid #2E7FDA;
+}
+
+/* background gradiente */
+
+.bg-lg-normal {
+  background: linear-gradient(180deg, #D98880, black)
+}
+
+.bg-lg-fighting {
+  background: linear-gradient(180deg, #96402A, black)
+}
+
+.bg-lg-flying {
+  background: linear-gradient(180deg, #735259, black)
+}
+
+.bg-lg-poison {
+  background: linear-gradient(180deg, #5B3184, black)
+}
+
+.bg-lg-ground {
+  background: linear-gradient(180deg, #96402A, black)
+}
+
+.bg-lg-rock {
+  background: linear-gradient(180deg, #331f1e, black)
+}
+
+
+.bg-lg-bug {
+  background: linear-gradient(180deg, #D98880, black)
+}
+
+
+.bg-lg-ghost {
+  background: linear-gradient(180deg, #2980B9, black)
+}
+
+.bg-lg-steel {
+  background: linear-gradient(180deg, #17A589, black)
+}
+
+
+.bg-lg-fire {
+  background: linear-gradient(180deg, #B7950B, black)
+}
+
+.bg-lg-water {
+  background: linear-gradient(180deg, #aaf2ff, black)
+}
+
+.bg-lg-grass {
+  background: linear-gradient(180deg, #2E4053, black)
+}
+
+.bg-lg-electric {
+  background: linear-gradient(180deg, #182a7a, black)
+}
+
+
+.bg-lg-psychic {
+  background: linear-gradient(180deg, #DA742E, black)
+}
+
+.bg-lg-ice {
+  background: linear-gradient(180deg, #DAB62E, black)
+}
+
+
+.bg-lg-dragon {
+  background: linear-gradient(180deg, #a6d432, black)
+}
+
+.bg-lg-dark {
+  background: linear-gradient(180deg, #151427, black)
+}
+
+.bg-lg-fairy {
+  background: linear-gradient(180deg, #D22EDA, black)
+}
+
+.bg-lg-unknown {
+  background: linear-gradient(180deg, #151427, black)
+}
+
+
+
